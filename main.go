@@ -1,6 +1,7 @@
 package main
 
 import (
+	"design-patterns/behavioralpatterns"
 	"design-patterns/creationalpatterns"
 	"design-patterns/structuralpatterns"
 	"github.com/fatih/color"
@@ -24,4 +25,16 @@ func main() {
 	structuralpatterns.Facade()
 	structuralpatterns.Flyweight()
 	structuralpatterns.Proxy()
+
+	d.Println("############################################################ Behavioral Design Pattern ############################################################")
+	behavioralpatterns.Command()
+	behavioralpatterns.ChainOfResponsibility()
+	behavioralpatterns.Iterator()
+	behavioralpatterns.Mediator()
+	behavioralpatterns.Memento()
+	behavioralpatterns.Observer()
+	behavioralpatterns.State()
+	behavioralpatterns.Strategy()
+	behavioralpatterns.TemplateMethod()
+	behavioralpatterns.Visitor()
 }
